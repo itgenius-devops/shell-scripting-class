@@ -20,7 +20,11 @@ install_packages_centos() {
     sudo yum install -y yum-utils
     sudo yum-config-manager --add-repo=https://download.docker.com/linux/centos/docker-ce.repo
     sudo yum-config-manager --add-repo=https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
-    sudo yum install -y docker-ce docker-ce-cli containerd.io httpd firewalld net-tools git ntp htop wget zip vim java-1.8.0-openjdk-headless epel-release
+    sudo dnf -y install dnf-plugins-core
+    sudo dnf config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+    sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+    sudo systemctl enable --now docker
+    sudo yum install -y httpd firewalld net-tools git ntp htop wget zip vim java-1.8.0-openjdk-headless epel-release
     sudo yum install -y python3 ansible jq unzip
     sudo yum install -y terraform
     sudo yum install -y awscli
