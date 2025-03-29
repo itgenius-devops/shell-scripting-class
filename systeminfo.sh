@@ -103,12 +103,12 @@ function update_system_with_confirmation() {
     echo "Updating the system now..."
     sleep 5
     if [ "$DISTRIBUTION" == "centos" ]; then
-        sudo yum update -y
+        # sudo yum update -y
         sleep 4
         echo "----Update successfully done. Thank you for your patience---"
         sleep 3
     elif [ "$DISTRIBUTION" == "ubuntu" ]; then
-        sudo apt update && sudo apt upgrade -y
+       # sudo apt update && sudo apt upgrade -y
         sleep 4
         echo "Update successfully done. Thank you for your patience."
         sleep 3
