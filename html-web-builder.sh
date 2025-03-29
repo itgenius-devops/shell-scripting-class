@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Author: info@ityourway.tech
+# Author: info@itgenius.io
 
 # Description: Shell script to automate the process of configuring a simple HTML Website 
 
