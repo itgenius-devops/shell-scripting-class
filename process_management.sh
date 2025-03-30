@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Author: info@ityourway.tech
+# Author: info@itgenius.io
 
 # Description: Shell script to automate process and daemon management in CentOS and Ubuntu distributions
 
