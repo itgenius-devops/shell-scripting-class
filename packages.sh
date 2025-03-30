@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Author: info@ityourway.tech
+# Author: info@itgenius.io
 
 # Description: Shell script to install a specific set of packages on CentOS and Ubuntu distributions
 
