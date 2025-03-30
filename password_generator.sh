@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Author: info@ityourway.tech
+# Author: info@itgenius.io
 
 # Description: Shell script to install generate a random password for users
 
