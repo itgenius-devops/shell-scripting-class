@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Function to detect the Linux distribution
+# A Function to detect the Linux distribution
 detect_distribution() {
     if [ -f /etc/centos-release ]; then
         echo "centos"
