@@ -39,7 +39,7 @@ get_user_preferences() {
     read -p "Do You Want To Include numbers? (y/n): " numbers_choice
     read -p "Do You Want To Include special characters? (y/n): " special_chars_choice
 
-    # Set default values if user presses Enter without providing input
+    # Setting default values if user presses Enter without providing input
     length=${length:-12}
     uppercase_choice=${uppercase_choice:-"n"}
     lowercase_choice=${lowercase_choice:-"n"}
