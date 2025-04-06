@@ -11,7 +11,7 @@ detect_distribution() {
     fi
 }
 
-# Function to display CPU information
+# A Function to display CPU information
 function display_cpu_info() {
     sleep 5
     echo "CPU Information:"
