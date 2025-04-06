@@ -2,7 +2,7 @@
 
 # Author: info@itgenius.io
 
-# Description: Shell script to automate the process of configuring a simple HTML Website 
+# Description: A Shell script to automate the process of configuring a simple HTML Website 
 
 # Function to detect the Linux distribution
 detect_distribution() {
