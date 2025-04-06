@@ -2,7 +2,7 @@
 
 # Author: info@itgenius.io
 
-# Description: Shell script to install generate a random password for users
+# Description: A Shell script to install generate a random password for users
 
 # Function to generate a random password
 generate_password() {
